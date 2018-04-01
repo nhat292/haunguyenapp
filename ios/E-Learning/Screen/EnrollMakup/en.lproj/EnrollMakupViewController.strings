@@ -1,0 +1,12 @@
+
+/* Class = "UIButton"; normalTitle = "Đăng Ký"; ObjectID = "6Tk-wa-ArQ"; */
+"6Tk-wa-ArQ.normalTitle" = "Enroll";
+
+/* Class = "UILabel"; text = "Ghi chú"; ObjectID = "DTI-iF-f9c"; */
+"DTI-iF-f9c.text" = "Note";
+
+/* Class = "UILabel"; text = "Chọn Ngày"; ObjectID = "Ngb-Fe-0MB"; */
+"Ngb-Fe-0MB.text" = "Select Date";
+
+/* Class = "UILabel"; text = "Đăng Ký Làm Đẹp"; ObjectID = "VG0-k0-mNv"; */
+"VG0-k0-mNv.text" = "Enroll makeup";

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LessonListingViewController" customModule="E_Learning" customModuleProvider="target">
+            <connections>
+                <outlet property="collectionView" destination="JNx-4O-jKg" id="oJI-Je-5kc"/>
+                <outlet property="imgRoundBackground" destination="cxe-7o-k8Y" id="Xnq-DZ-QCz"/>
+                <outlet property="lblEmpty" destination="RHC-k6-kPF" id="W3m-OB-Cuh"/>
+                <outlet property="lblTitle" destination="SQ8-aS-Kab" id="Qgd-in-cgb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="round_background" translatesAutoresizingMaskIntoConstraints="NO" id="cxe-7o-k8Y">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="333.5"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chuong 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQ8-aS-Kab">
+                    <rect key="frame" x="15" y="70" width="345" height="23"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="19"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="JNx-4O-jKg">
+                    <rect key="frame" x="15" y="108" width="345" height="544"/>
+                    <color key="backgroundColor" white="1" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="OvK-YM-wMi">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                </collectionView>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chưa có bài học" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RHC-k6-kPF">
+                    <rect key="frame" x="128.5" y="371" width="118" height="19.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="SQ8-aS-Kab" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="70" id="42g-Ai-bgf"/>
+                <constraint firstAttribute="trailing" secondItem="SQ8-aS-Kab" secondAttribute="trailing" constant="15" id="48S-xu-pju"/>
+                <constraint firstItem="RHC-k6-kPF" firstAttribute="centerY" secondItem="JNx-4O-jKg" secondAttribute="centerY" id="7ca-J8-6ye"/>
+                <constraint firstItem="JNx-4O-jKg" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="Ko7-Kl-NC2"/>
+                <constraint firstItem="SQ8-aS-Kab" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="NJt-ez-o6U"/>
+                <constraint firstAttribute="bottom" secondItem="JNx-4O-jKg" secondAttribute="bottom" constant="15" id="QVq-mo-nUN"/>
+                <constraint firstItem="cxe-7o-k8Y" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="1/2" id="aXU-wb-FoV"/>
+                <constraint firstItem="cxe-7o-k8Y" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fps-nT-2XW"/>
+                <constraint firstItem="JNx-4O-jKg" firstAttribute="top" secondItem="SQ8-aS-Kab" secondAttribute="bottom" constant="15" id="gRQ-B8-QYq"/>
+                <constraint firstAttribute="trailing" secondItem="JNx-4O-jKg" secondAttribute="trailing" constant="15" id="gwY-If-3Mm"/>
+                <constraint firstItem="cxe-7o-k8Y" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="rfX-H6-18F"/>
+                <constraint firstItem="RHC-k6-kPF" firstAttribute="centerX" secondItem="JNx-4O-jKg" secondAttribute="centerX" id="tTs-Wv-eyM"/>
+                <constraint firstAttribute="trailing" secondItem="cxe-7o-k8Y" secondAttribute="trailing" id="yR1-rb-ZFJ"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="round_background" width="187" height="131"/>
+    </resources>
+</document>

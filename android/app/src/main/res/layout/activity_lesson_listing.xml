@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bgColor">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_curve_height"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_round_background" />
+
+    <ImageView
+        android:id="@+id/imgBack"
+        android:layout_width="@dimen/img_back_size"
+        android:layout_height="@dimen/img_back_size"
+        android:layout_margin="@dimen/margin_padding_small"
+        android:background="@drawable/bg_button_circle"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/margin_padding_small"
+        android:src="@drawable/ic_back"
+        android:tint="@color/black" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        style="@style/TextStyle.Heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgBack"
+        android:layout_marginEnd="@dimen/margin_padding_normal"
+        android:layout_marginStart="@dimen/margin_padding_normal"
+        android:text="Chuong 1" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefreshLessons"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtTitle"
+        android:layout_margin="@dimen/margin_padding_normal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerLessons"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:overScrollMode="ifContentScrolls"
+            app:layoutManager="android.support.v7.widget.GridLayoutManager"
+            tools:listitem="@layout/lessons_item" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</RelativeLayout>

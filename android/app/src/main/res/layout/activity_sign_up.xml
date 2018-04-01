@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/llContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_padding_large"
+            android:layout_marginStart="@dimen/margin_padding_large"
+            android:orientation="vertical">
+
+            <!--Title-->
+            <TextView
+                android:id="@+id/txtTitle"
+                style="@style/TextStyle.Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/sign_up_title"
+                android:textAllCaps="true" />
+
+            <!--First name and last name layout-->
+            <LinearLayout
+                android:id="@+id/llFirstLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_edit_text_size"
+                        android:layout_height="@dimen/icon_edit_text_size"
+                        android:src="@drawable/ic_name" />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_first_and_last_name"
+                        android:paddingBottom="@dimen/margin_padding_very_small"
+                        android:paddingStart="@dimen/margin_padding_normal"
+                        android:textColorHint="@color/light_gray"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/editFirstLastName"
+                            style="@style/TextAppearence.App.TextInputEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|start|bottom"
+                            android:imeOptions="actionNext"
+                            android:inputType="text|textNoSuggestions"
+                            android:paddingTop="@dimen/margin_padding_very_small" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/margin_padding_small"
+                    android:background="@android:color/white" />
+
+            </LinearLayout>
+
+            <!--Phone number layout-->
+            <LinearLayout
+                android:id="@+id/llPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_padding_normal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_edit_text_size"
+                        android:layout_height="@dimen/icon_edit_text_size"
+                        android:src="@drawable/ic_phone" />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_phone_number"
+                        android:paddingBottom="@dimen/margin_padding_very_small"
+                        android:paddingStart="@dimen/margin_padding_normal"
+                        android:textColorHint="@color/light_gray"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/editPhone"
+                            style="@style/TextAppearence.App.TextInputEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|start|bottom"
+                            android:imeOptions="actionNext"
+                            android:inputType="phone|textNoSuggestions"
+                            android:paddingTop="@dimen/margin_padding_small" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/margin_padding_very_small"
+                    android:background="@android:color/white" />
+
+            </LinearLayout>
+
+            <!--Username layout-->
+            <LinearLayout
+                android:id="@+id/llUsername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_padding_normal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_edit_text_size"
+                        android:layout_height="@dimen/icon_edit_text_size"
+                        android:src="@drawable/ic_username" />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_username"
+                        android:paddingBottom="@dimen/margin_padding_very_small"
+                        android:paddingStart="@dimen/margin_padding_normal"
+                        android:textColorHint="@color/light_gray"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/editUsername"
+                            style="@style/TextAppearence.App.TextInputEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|start|bottom"
+                            android:imeOptions="actionNext"
+                            android:inputType="textEmailAddress|textNoSuggestions"
+                            android:paddingTop="@dimen/margin_padding_very_small" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/margin_padding_small"
+                    android:background="@android:color/white" />
+
+            </LinearLayout>
+
+            <!--Password layout-->
+            <LinearLayout
+                android:id="@+id/llPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_padding_normal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_edit_text_size"
+                        android:layout_height="@dimen/icon_edit_text_size"
+                        android:src="@drawable/ic_password" />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_password"
+                        android:paddingBottom="@dimen/margin_padding_very_small"
+                        android:paddingStart="@dimen/margin_padding_normal"
+                        android:textColorHint="@color/light_gray"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/editPassword"
+                            style="@style/TextAppearence.App.TextInputEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|start|bottom"
+                            android:imeOptions="actionNext"
+                            android:inputType="textPassword|textNoSuggestions"
+                            android:paddingTop="@dimen/margin_padding_small" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/margin_padding_very_small"
+                    android:background="@android:color/white" />
+
+            </LinearLayout>
+
+            <!--Confirm Password layout-->
+            <LinearLayout
+                android:id="@+id/llConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_padding_normal"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/icon_edit_text_size"
+                        android:layout_height="@dimen/icon_edit_text_size"
+                        android:src="@drawable/ic_password" />
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/hint_confirm_password"
+                        android:paddingBottom="@dimen/margin_padding_very_small"
+                        android:paddingStart="@dimen/margin_padding_normal"
+                        android:textColorHint="@color/light_gray"
+                        app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+                        <android.support.design.widget.TextInputEditText
+                            android:id="@+id/editConfirmPassword"
+                            style="@style/TextAppearence.App.TextInputEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center|start|bottom"
+                            android:imeOptions="actionDone"
+                            android:inputType="textPassword|textNoSuggestions"
+                            android:paddingTop="@dimen/margin_padding_small" />
+
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:layout_marginTop="@dimen/margin_padding_very_small"
+                    android:background="@android:color/white" />
+
+            </LinearLayout>
+
+            <!--SignUp button-->
+            <Button
+                android:id="@+id/btnSignUp"
+                style="@style/Button.Primary"
+                android:layout_marginBottom="@dimen/margin_padding_very_small"
+                android:layout_marginTop="40dp"
+                android:text="@string/sign_up_title" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  E-Learning
+
+  Created by Nguyen Van Nhat on 1/16/18.
+  Copyright © 2018 COMPANY. All rights reserved.
+*/
+
+//PlaceHolder
+"PlaceHolderUsername" = "Username";
+"PlaceHolderPassword" = "Password";
+"PlaceHolderConfirmPassword" = "Confirm password";
+"PlaceHolderName" = "First and last name";
+"PlaceHolderPhone" = "Phone number";
+"PlaceHolderAddress" = "Address";
+"PlaceHolderVipDue" = "VIP expiration";
+"PlaceHolderEmail" = "Email";
+"PlaceHolderOldPassword" = "Current password";
+"PlaceHolderNewPassword" = "New password";
+
+//Titles
+"TitleError" = "Error";
+"TitleSuccess" = "Success";
+"TitleLogOut" = "Log out";
+"TitleSelectDate" = "Select Date";
+"TitleBuyVip" = "Buy Vip";
+
+//Messages
+"MessagePleaseEnterUsername" = "Please enter username";
+"MessagePleaseEnterPassword" = "Please enter password";
+"MessageUsernameOrPasswordIncorrect" = "Username or password is incorrect";
+"MessagePleaseEnterName" = "Please enter name";
+"MessagePleaseEnterPhone" = "Please enter phone number";
+"MessagePleaseEnterEmail" = "Please enter email address";
+"MessagePleaseEmailInvalid" = "Email address is invalid";
+"MessagePasswordDoesNotMatch" = "Confirm password does not match";
+"MessageRegistrationSuccess" = "Register user successfully";
+"MessageRegistrationNotSuccess" = "Register user failed";
+"MessageUpdateSuccess" = "Updated successfully";
+"MessageUserExist" = "Username is existed";
+"MessagePhoneExist" = "Phone number is existed";
+"Loading" = "Loading...";
+"MessagePleaseEnterCurrentPassword" = "Please enter current password";
+"MessagePleaseEnterNewPassword" = "Please enter new password";
+"MessageChangePasswordSuccess" = "Password changed successfully";
+"MessageOldPasswordIncorrect" = "Old password incorrect";
+"MessageEnrollTimeEnpty" = "Please select time";
+"MessageEnrollContentEnpty" = "Please add content";
+"MessageEnrollSuccess" = "Enrolled successfully";
+"MessageEnrollError" = "Enroll failed";
+"MessageBuyVip" = "You need buy vip to continue this lesson";
+"MessageBuyVipSuccess" = "Buy VIP successfully";
+"MessageVipAlready" = "You are VIP already";
+
+//Confirm
+"ConfirmLogout" = "Are you sure to log out?";
+
+//Network
+"NetworkErrorConnection" = "No internet connection. Please connect and try again";
+"NetworkUnknowError" = "Error. Please try again";
+"NetworkConnectionTimeOut" = "Connection time out. Please try again";
+
+//Buttons
+"ButtonCancel" = "Cancel";
+"ButtonToDay" = "Today";
+"ButtonBuy" = "Buy";

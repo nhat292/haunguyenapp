@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:background="@color/white"
+    android:foreground="?attr/selectableItemBackground"
+    android:orientation="vertical">
+
+    <com.myproject.elearning.ui.custom.SquareRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgLesson"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </com.myproject.elearning.ui.custom.SquareRelativeLayout>
+
+    <TextView
+        android:id="@+id/txtLesson"
+        style="@style/TextStyle.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_padding_very_small"
+        android:maxLines="2"
+        android:padding="@dimen/margin_padding_very_small"
+        android:text="Travel Pictures"
+        android:textColor="@color/black" />
+
+</LinearLayout>

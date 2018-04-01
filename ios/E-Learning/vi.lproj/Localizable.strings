@@ -1,0 +1,66 @@
+/* 
+  Localizable.strings
+  E-Learning
+
+  Created by Nguyen Van Nhat on 1/16/18.
+  Copyright © 2018 COMPANY. All rights reserved.
+*/
+
+//PlaceHolder
+"PlaceHolderUsername" = "Tên đăng nhập";
+"PlaceHolderPassword" = "Mật khẩu";
+"PlaceHolderConfirmPassword" = "Nhập lại mật khẩu";
+"PlaceHolderName" = "Họ và tên";
+"PlaceHolderPhone" = "Số điện thoại";
+"PlaceHolderAddress" = "Địa chỉ";
+"PlaceHolderVipDue" = "Thời hạn VIP";
+"PlaceHolderEmail" = "Email";
+"PlaceHolderOldPassword" = "Mật khẩu hiện tại";
+"PlaceHolderNewPassword" = "Mật khẩu mới";
+
+//Titles
+"TitleError" = "Lỗi";
+"TitleSuccess" = "Thành công";
+"TitleLogOut" = "Đăng xuất";
+"TitleSelectDate" = "Chọn Ngày";
+"TitleBuyVip" = "Mua Vip";
+
+//Messages
+"MessagePleaseEnterUsername" = "Vui lòng nhập tên đăng nhập";
+"MessagePleaseEnterPassword" = "Vui lòng nhập mật khẩu";
+"MessageUsernameOrPasswordIncorrect" = "Tên người dùng hoặc mật khẩu chưa đúng";
+"MessagePleaseEnterName" = "Vui lòng nhập họ tên";
+"MessagePleaseEnterPhone" = "Vui lòng nhập số điện thoại";
+"MessagePleaseEnterEmail" = "Vui lòng nhập địa chỉ email";
+"MessagePleaseEmailInvalid" = "Địa chỉ email không hợp lệ";
+"MessagePasswordDoesNotMatch" = "Xác nhận mật khẩu không chính xác";
+"MessageRegistrationSuccess" = "Đăng ký người dùng thành công";
+"MessageRegistrationNotSuccess" = "Đăng ký người dùng không thành công";
+"MessageUpdateSuccess" = "Cập nhật tài khoản thành công";
+"MessageUserExist" = "Người dùng đã tồn tại";
+"MessagePhoneExist" = "Số điện thoại đã tồn tại";
+"Loading" = "Đang tải...";
+"MessagePleaseEnterCurrentPassword" = "Vui lòng nhập mật khẩu hiện tại";
+"MessagePleaseEnterNewPassword" = "Vui lòng nhập mật khẩu mới";
+"MessageChangePasswordSuccess" = "Đổi mật khẩu thành công";
+"MessageOldPasswordIncorrect" = "Mật khẩu cũ không đúng";
+"MessageEnrollTimeEnpty" = "Vui lòng chọn thời gian";
+"MessageEnrollContentEnpty" = "Vui lòng nhập nội dung";
+"MessageEnrollSuccess" = "Đặt lịch thành công";
+"MessageEnrollError" = "Đặt lịch thất bại";
+"MessageBuyVip" = "Bạn cần mua vip để tiếp tục bài học";
+"MessageBuyVipSuccess" = "Mua vip thành công";
+"MessageVipAlready" = "Bạn đang là VIP";
+
+//Confirm
+"ConfirmLogout" = "Bạn có chắc muốn đăng xuất?";
+
+//Network
+"NetworkErrorConnection" = "Không có kết nối mạng. Vui lòng kết nối và thử lại";
+"NetworkUnknowError" = "Lỗi. Vui lòng thử lại";
+"NetworkConnectionTimeOut" = "Đã hết thời gian kết nối. Vui lòng thử lại";
+
+//Buttons
+"ButtonCancel" = "Hủy";
+"ButtonToDay" = "Hôm nay";
+"ButtonBuy" = "Mua";

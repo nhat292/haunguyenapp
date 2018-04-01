@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margin_padding_large"
+        android:background="@drawable/bg_dialog"
+        android:minWidth="@dimen/dialog_min_width"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_padding_normal">
+
+
+        <!--Title-->
+        <TextView
+            android:id="@+id/txtTitle"
+            style="@style/TextStyle.Heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:text="@string/select_language"
+            android:textSize="@dimen/text_size_large" />
+
+
+        <RadioButton
+            android:id="@+id/radioVietnamese"
+            style="@style/RadioButton.Style"
+            android:layout_marginTop="@dimen/margin_padding_normal"
+            android:checked="true"
+            android:text="@string/vietnamese" />
+
+        <RadioButton
+            android:id="@+id/radioEnglish"
+            style="@style/RadioButton.Style"
+            android:layout_marginTop="@dimen/margin_padding_small"
+            android:text="@string/english" />
+
+    </LinearLayout>
+
+</RelativeLayout>

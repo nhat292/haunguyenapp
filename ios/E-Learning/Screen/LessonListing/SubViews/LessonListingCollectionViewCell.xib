@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="LessonListingCollectionViewCell" customModule="E_Learning" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="167" height="181"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="167" height="181"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Nob-wo-jQ9">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="149"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Travel Pictures" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9mx-xo-NH5">
+                        <rect key="frame" x="1" y="154" width="165" height="25"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="c5M-Ns-Px7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ja3-jr-MKF">
+                        <rect key="frame" x="0.0" y="0.0" width="167" height="181"/>
+                        <color key="backgroundColor" white="1" alpha="0.26876201923076926" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Nob-wo-jQ9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="4Z8-ed-bET"/>
+                <constraint firstAttribute="trailing" secondItem="Ja3-jr-MKF" secondAttribute="trailing" id="4gX-ER-upR"/>
+                <constraint firstItem="9mx-xo-NH5" firstAttribute="top" secondItem="Nob-wo-jQ9" secondAttribute="bottom" constant="5" id="EyN-Ke-iuD"/>
+                <constraint firstItem="Ja3-jr-MKF" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="KyK-Ib-lKs"/>
+                <constraint firstAttribute="trailing" secondItem="9mx-xo-NH5" secondAttribute="trailing" constant="1" id="LZA-F6-Jez"/>
+                <constraint firstAttribute="bottom" secondItem="Ja3-jr-MKF" secondAttribute="bottom" id="XaJ-fZ-rDQ"/>
+                <constraint firstAttribute="trailing" secondItem="Nob-wo-jQ9" secondAttribute="trailing" id="bhX-pI-NNo"/>
+                <constraint firstAttribute="bottom" secondItem="9mx-xo-NH5" secondAttribute="bottom" constant="2" id="cqj-bo-mXY"/>
+                <constraint firstItem="Nob-wo-jQ9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dxE-xx-HWx"/>
+                <constraint firstItem="Ja3-jr-MKF" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="qmX-5D-4el"/>
+                <constraint firstItem="9mx-xo-NH5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="tF5-hj-wEw"/>
+            </constraints>
+            <size key="customSize" width="167" height="181"/>
+            <connections>
+                <outlet property="dimView" destination="Ja3-jr-MKF" id="mCo-NE-sVq"/>
+                <outlet property="imgLesson" destination="Nob-wo-jQ9" id="V8k-fu-Hjb"/>
+                <outlet property="lblLesson" destination="9mx-xo-NH5" id="yl0-fq-x9U"/>
+            </connections>
+            <point key="canvasLocation" x="83.5" y="117.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

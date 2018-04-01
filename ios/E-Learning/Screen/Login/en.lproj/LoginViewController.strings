@@ -1,0 +1,12 @@
+
+/* Class = "UILabel"; text = "Chưa có tài khoản?"; ObjectID = "7f0-4U-IvA"; */
+"7f0-4U-IvA.text" = "No account yet?";
+
+/* Class = "UIButton"; normalTitle = "Đăng ký"; ObjectID = "HAQ-ZH-c50"; */
+"HAQ-ZH-c50.normalTitle" = "Sign up";
+
+/* Class = "UIButton"; normalTitle = "Đăng Nhập"; ObjectID = "JDg-ew-m7M"; */
+"JDg-ew-m7M.normalTitle" = "Sign In";
+
+/* Class = "UILabel"; text = "ĐĂNG NHẬP"; ObjectID = "tBw-Ke-7Df"; */
+"tBw-Ke-7Df.text" = "SIGN IN";

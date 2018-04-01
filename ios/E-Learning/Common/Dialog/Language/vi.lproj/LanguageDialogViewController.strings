@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "Tiếng Việt"; ObjectID = "TMs-wu-hjy"; */
+"TMs-wu-hjy.normalTitle" = "Tiếng Việt";
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "eNt-Mg-cA4"; */
+"eNt-Mg-cA4.normalTitle" = "English";
+
+/* Class = "UILabel"; text = "Chọn ngôn ngữ"; ObjectID = "tXr-J0-Atc"; */
+"tXr-J0-Atc.text" = "Chọn ngôn ngữ";

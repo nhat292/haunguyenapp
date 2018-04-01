@@ -1,0 +1,24 @@
+
+/* Class = "UILabel"; text = "@username"; ObjectID = "00x-vt-Xhi"; */
+"00x-vt-Xhi.text" = "@username";
+
+/* Class = "UIButton"; normalTitle = "Danh Mục bài học"; ObjectID = "P16-D8-dJK"; */
+"P16-D8-dJK.normalTitle" = "Danh Mục bài học";
+
+/* Class = "UIButton"; normalTitle = "Thông tin cá nhân"; ObjectID = "X0k-ko-093"; */
+"X0k-ko-093.normalTitle" = "Thông tin cá nhân";
+
+/* Class = "UILabel"; text = "MJ"; ObjectID = "ZGp-bM-xAU"; */
+"ZGp-bM-xAU.text" = "MJ";
+
+/* Class = "UIButton"; normalTitle = "Đổi ngôn ngữ"; ObjectID = "aJY-Gf-nfE"; */
+"aJY-Gf-nfE.normalTitle" = "Đổi ngôn ngữ";
+
+/* Class = "UIButton"; normalTitle = "Đăng xuất"; ObjectID = "dKp-Ki-DDU"; */
+"dKp-Ki-DDU.normalTitle" = "Đăng xuất";
+
+/* Class = "UIButton"; normalTitle = "Giới thiệu"; ObjectID = "gQ6-D9-ua1"; */
+"gQ6-D9-ua1.normalTitle" = "Giới thiệu";
+
+/* Class = "UIButton"; normalTitle = "Đăng lý làm đẹp"; ObjectID = "vsU-EN-7rM"; */
+"vsU-EN-7rM.normalTitle" = "Đăng ký làm đẹp";

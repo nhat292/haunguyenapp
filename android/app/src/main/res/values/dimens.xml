@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">0dp</dimen>
+
+    <!--Text sizes-->
+    <dimen name="text_size_tiny">8sp</dimen>
+    <dimen name="text_size_very_small">10sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_large">17sp</dimen>
+    <dimen name="text_size_very_large">20sp</dimen>
+    <dimen name="text_size_big">25sp</dimen>
+
+    <!--Margin padding-->
+    <dimen name="margin_padding_tiny">3dp</dimen>
+    <dimen name="margin_padding_very_small">6dp</dimen>
+    <dimen name="margin_padding_small">10dp</dimen>
+    <dimen name="margin_padding_normal">15dp</dimen>
+    <dimen name="margin_padding_large">20dp</dimen>
+    <dimen name="margin_padding_very_large">30dp</dimen>
+    
+    <!--Login-->
+    <dimen name="icon_edit_text_size">35dp</dimen>
+    
+    <!--Main-->
+    <dimen name="icon_menu_size">45dp</dimen>
+    <dimen name="img_curve_height">280dp</dimen>
+    <!--LeftMenu-->
+    <dimen name="icon_avatar_size">80dp</dimen>
+
+    <!--Fragments-->
+    <dimen name="title_margin_top">55dp</dimen>
+    <dimen name="icon_arrow_item_size">30dp</dimen>
+
+    <!--LessonDetail-->
+    <dimen name="img_back_size">45dp</dimen>
+    <dimen name="lesson_item_spacing">7dp</dimen>
+
+    <!--Profile-->
+    <dimen name="horizontal_line_margin_start">50dp</dimen> <!-- value = icon_edit_text_size + margin_padding_normal -->
+
+    <!--Dialog-->
+    <dimen name="dialog_min_width">300dp</dimen>
+    
+</resources>

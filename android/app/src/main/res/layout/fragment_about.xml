@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_curve_height"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_round_background" />
+
+    <ImageView
+        android:id="@+id/imgMenu"
+        android:layout_width="@dimen/icon_menu_size"
+        android:layout_height="@dimen/icon_menu_size"
+        android:layout_margin="@dimen/margin_padding_small"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="@dimen/margin_padding_small"
+        android:src="@drawable/menu" />
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">E-Learning</string>
+
+    <!--DrawerLayout-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--App Message-->
+    <string name="api_retry_error">Please retry!</string>
+    <string name="api_default_error">Something wrong happened!</string>
+    <string name="some_error">Some Error Occurred!</string>
+    <string name="connection_error">Internet connection lost!</string>
+
+    <!--play store-->
+    <string name="app_google_play_store_link"></string>
+    <string name="app_market_link"></string>
+
+    <!--Login-->
+    <string name="login_title">Đăng Nhập</string>
+    <string name="hint_username">Tên đăng nhập</string>
+    <string name="hint_password">Mật khẩu</string>
+    <string name="do_not_have_account">Chưa có tài khoản?</string>
+    <string name="sign_up">Đăng ký</string>
+
+    <!--Login Validation-->
+    <string name="empty_email">Please provide a non empty email.</string>
+    <string name="invalid_email">Please provide a valid email.</string>
+    <string name="empty_password">Please provide a non empty password.</string>
+
+    <!--SignUp-->
+    <string name="sign_up_title">Đăng Ký</string>
+    <string name="hint_first_and_last_name">Họ và tên</string>
+    <string name="hint_phone_number">Số điện thoại</string>
+    <string name="hint_confirm_password">Nhập lại mật khẩu</string>
+
+    <!--Main-->
+    <!--LeftMenu-->
+    <string name="at_sign">&#64;username</string>
+    <string name="lesson_categories">Danh Mục bài học</string>
+    <string name="personal_information">Thông tin cá nhân</string>
+    <string name="change_language">Đổi ngôn ngữ</string>
+    <string name="about">Giới thiệu</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="message_confirm_logout">Bạn có chắc muốn đăng xuất?</string>
+    
+    <!--Profile-->
+    <string name="hint_address">Địa chỉ</string>
+    <string name="hint_vip_due_day">Thời hạn VIP</string>
+    <string name="buy_vip">Mua Vip</string>
+    <string name="save">Save</string>
+
+    <!--Temporaries-->
+    <string name="video_url">http://jzvd.nathen.cn/c6e3dc12a1154626b3476d9bf3bd7266/6b56c5f0dc31428083757a45764763b0-5287d2089db37e62345123a1be272f8b.mp4</string>
+
+    <!--Dialogs-->
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+
+    <!--Language Dialog-->
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="vietnamese">Tiếng Việt</string>
+    <string name="english">English</string>
+
+    <!--Languages-->
+    <string name="vi_lang">vi</string>
+    <string name="en_lang">en</string>
+
+</resources>

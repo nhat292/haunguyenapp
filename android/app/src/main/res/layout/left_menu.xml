@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_background"
+    android:orientation="vertical"
+    android:padding="@dimen/margin_padding_normal">
+
+    <RelativeLayout
+        android:layout_width="@dimen/icon_avatar_size"
+        android:layout_height="@dimen/icon_avatar_size"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_padding_very_large"
+        android:background="@drawable/bg_avatar">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="MJ"
+            android:textColor="@color/white"
+            android:textSize="32dp" />
+    </RelativeLayout>
+
+    <TextView
+        style="@style/TextStyle.Title.Sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/at_sign"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="@dimen/margin_padding_normal"
+        android:background="@color/light_gray" />
+
+    <Button
+        android:id="@+id/btnLessonCategories"
+        style="@style/Button.Menu"
+        android:text="@string/lesson_categories" />
+
+    <Button
+        android:id="@+id/btnPersonalInformation"
+        style="@style/Button.Menu"
+        android:text="@string/personal_information" />
+
+    <Button
+        android:id="@+id/btnChangeLanguage"
+        style="@style/Button.Menu"
+        android:text="@string/change_language" />
+
+    <Button
+        android:id="@+id/btnAbout"
+        style="@style/Button.Menu"
+        android:text="@string/about" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        style="@style/Button.Menu"
+        android:text="@string/logout" />
+</LinearLayout>
